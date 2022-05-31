@@ -1,5 +1,6 @@
 import 'package:consumer_end/objects%20and%20constants/constants.dart';
 import 'package:consumer_end/pages/about.dart';
+import 'package:consumer_end/pages/payment_history.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -49,6 +50,7 @@ class _HomeState extends State<Home> {
               IconButton(
                   onPressed: () {
                     //go to the rental history page
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>const PaymentHistory()));
                   },
                   icon: const FaIcon(FontAwesomeIcons.clockRotateLeft)
               ),
