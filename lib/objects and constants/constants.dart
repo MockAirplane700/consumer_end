@@ -20,7 +20,7 @@ const String logo = 'https://cdn.vectorstock.com/i/1000x1000/81/72/real-estate-l
 
 // contact information
 const String companyName = 'Lorem Ipsum';
-const String phoneNumber = '+1-431-388-3047';
+const String contactNumber = '+1-431-388-3047';
 const String email = 'mthandazo99@gmail.com';
 const String website = 'https://www.sitebuilderreport.com/inspiration/real-estate-websites';
 const String instagram = 'https://www.instagram.com/';
