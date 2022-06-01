@@ -13,6 +13,8 @@ class UserLogic {
           buildingName: 'Royce',
           currentTenantName: 'Mthandazo Edwin Siziba',
           unitNumber: '16',
+          rent: '796',
+          description: '',
           photos: ['https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg'],
           problems: [Problem(
               photos: ['https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg'],
